@@ -60,11 +60,11 @@ sudo apt-get install terraform
 
 ---------------------------------------------------------------
 make it exe
-Shenang
+## Shenang
 ```
 #!/usr/bin/env bash
 ``````
-to run it!
+to run it! 
 ---
 ```
 source ./bin/install_terraform_cli.sh
@@ -73,7 +73,7 @@ source ./bin/install_terraform_cli.sh
 ```
 ./bin/install_terraform_cli.sh```       ------------ permision denied
 
-### Linux permision
+### Linux permision!
 [chmod](https://en.wikipedia.org/wiki/Chmod)
 ```
 ls -la
