@@ -75,7 +75,7 @@ source ./bin/install_terraform_cli.sh
 ```
 
 ### Linux permision!
-[chmod](https://en.wikipedia.org/wiki/Chmod)
+[chmod instructions](https://en.wikipedia.org/wiki/Chmod)
 ```
 ls -la
 ls -la ./bin
@@ -83,10 +83,9 @@ ls -la ./bin
 chmod u+x ./bin/install_terraform_cli.sh
 
 ```
-### to make everything executable we use 777
+to make everything executable we use 777
 chmod 777 ./bin/install...
 
-###
 in the gitpod.yml file we delete the 4 installartion commands and replace with the bash script
 
 ```
