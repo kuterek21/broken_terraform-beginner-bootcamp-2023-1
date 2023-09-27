@@ -96,3 +96,32 @@ source ./bin/install_terraform_cli
 !!
 init - before 
 !!
+
+### Working with Env Var
+
+We can list out all Enviroment Variable with a command:
+`
+env
+`
+We can filter specific env var using grep:
+```
+env | grep GITPOD
+```
+### Setting and unseting in the terminal
+
+We can set using:
+'eport Hello='World'
+We can unset using:
+'unset Hello='World'
+
+
+Withing thw bash script we can set env without writting export eg.
+
+```sh
+#!/usr/bin/env bash
+HELLO='world'
+echo $HELLO
+```
+### Printing Env Vars
+
+we can print an env var using echo eg. `echo $HELLO`
