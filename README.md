@@ -63,8 +63,8 @@ make it exe
 ## Sha-bang
 ```
 #!/usr/bin/env bash
-``````
-to run it! 
+```
+to run it
 ---
 ```
 source ./bin/install_terraform_cli.sh
