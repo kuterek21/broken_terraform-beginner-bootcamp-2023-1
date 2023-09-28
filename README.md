@@ -96,3 +96,27 @@ source ./bin/install_terraform_cli
 !!
 init - before 
 !!
+### AWS CLI installation
+
+AWS CLI is isntalled for the project via the bash script [' ./bin/install_aws_cli'](./bin/install_aws_cli)
+
+### aws sts get-caller-identity
+
+We can check if out AWS creds are configured correctly by running the following command:
+
+```
+aws sts get-caller-identity
+```
+If it is successfull you should see a json payload return that looks like this:
+
+```
+{
+    "UserId": "AIDAY45K2RV55HGOU7GZY",
+    "Account": "611854224763",
+    "Arn": "arn:aws:iam::611854224763:user/terraform_bootcamp"
+}
+```
+
+[AWS CLI ENV VARs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+
+We need to generate IAM creds from GUI,
