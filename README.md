@@ -120,3 +120,5 @@ If it is successfull you should see a json payload return that looks like this:
 [AWS CLI ENV VARs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 
 We need to generate IAM creds from GUI,
+
+#### Terraform Basics
