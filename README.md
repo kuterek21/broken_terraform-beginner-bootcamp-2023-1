@@ -140,6 +140,8 @@ We need to generate IAM creds from GUI,
 #### Terraform Apply
 
 `terraform apply`
+to auto approve 
+`terraform apply auto approve `
 
 
 
