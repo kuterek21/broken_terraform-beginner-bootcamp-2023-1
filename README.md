@@ -122,3 +122,28 @@ If it is successfull you should see a json payload return that looks like this:
 We need to generate IAM creds from GUI,
 
 #### Terraform Basics
+
+- ** Providers **
+  
+
+- ** Modules **
+
+#### Terraform Console
+`terraform`
+
+#### Terraform init
+
+`terraform init`
+#### Terraform plan
+
+`terraform plan`
+#### Terraform Apply
+
+`terraform apply`
+
+
+
+
+
+
+
